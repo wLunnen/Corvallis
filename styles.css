@@ -43,4 +43,7 @@ nav a {
       width: 100%;
       bottom: 0;
       top-padding: 0px;
+      left-margin: 0;
+      right-margin: 0;
+      bottom-margin: 0;
     }
