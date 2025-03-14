@@ -1,12 +1,12 @@
 body {
       font-family: Arial, sans-serif;
-      background-color: #f4f4f9;
+      background-color: #d3d3d3;
       color: #333;
       margin: 0;
       padding: 0;
     }
 header {
-      background-color: #4CAF50;
+      background-color: #d73f09;
       color: white;
       text-align: center;
       padding: 20px;
@@ -35,11 +35,11 @@ nav a {
     }
     footer {
       text-align: center;
-      background-color: #333;
+      background-color: #000000;
       color: white;
       padding: 10px;
       position: fixed;
-      height: 3em;
+      height: 100%;
       width: 100%;
       bottom: 0;
       top-padding: 0px;
