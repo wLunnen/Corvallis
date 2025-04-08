@@ -14,7 +14,7 @@ header {
 }
 
 nav {
-  background-color: #000000;
+  background-color: #411900;
   overflow: hidden;
   text-align: center;
 }
@@ -41,6 +41,7 @@ section {
 }
 
 footer {     
+  border-top: #411900;
   text-align: center;
   background-color: #DC4405; /* Fixed the typo */
   color: white;
