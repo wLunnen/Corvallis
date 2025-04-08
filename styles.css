@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #65040e;
+  background-color: #DC4405;
   color: white;
   text-align: center;
   padding: 20px;
@@ -42,7 +42,7 @@ section {
 
 footer {     
   text-align: center;
-  background-color: #65040e; /* Fixed the typo */
+  background-color: #DC4405; /* Fixed the typo */
   color: white;
   padding: 1em;
   position: fixed;
