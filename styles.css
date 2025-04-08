@@ -41,7 +41,7 @@ section {
 }
 
 footer {     
-  border-top: 5px solid #411900;
+  border-top: 1px solid #411900;
   text-align: center;
   background-color: #DC4405; /* Fixed the typo */
   color: white;
