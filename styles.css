@@ -45,7 +45,10 @@ footer {
   text-align: center;
   background-color: #DC4405; /* Fixed the typo */
   color: white;
-  padding: 1em;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: auto;
+  padding-bottom: auto;
   position: fixed;
   height: 2em;
   width: 100%;
