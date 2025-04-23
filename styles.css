@@ -42,6 +42,7 @@ section {
 
 footer {     
   text-align: center;
+  vertical-text-align: center;
   background-color: #DC4405; 
   color: white;
   position: fixed;
