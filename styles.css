@@ -86,10 +86,17 @@ body {
   cursor: pointer;
 }
 
-img {
-  position: absolute;
-  transform: scale(.5);
-  margin: auto;
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.image-container img {
+  transform: scale(0.5);
+  margin: 10px;
 }
 
 /* Responsive Design */
