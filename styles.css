@@ -96,11 +96,11 @@ img {
 */
 }
 
-.90 {
+img .a {
   transform: rotate(90deg);
 }
 
-.270 {
+img .b {
   transform: rotate(270deg);
 }
 
