@@ -86,7 +86,7 @@ body {
   cursor: pointer;
 }
 
-.image-container {
+a .image-container {
   padding: 1rem;
   margin: 1rem;  
   display: flex;
