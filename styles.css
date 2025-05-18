@@ -86,18 +86,20 @@ body {
   cursor: pointer;
 }
 
-a .image-container {
+.image-container {
   padding: 1rem;
-  margin: 1rem;  
+  margin: 1rem auto; /* Center horizontally */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   min-height: 100vh;
+  max-width: 1200px; /* Optional: keeps layout narrow and centered */
 }
 
 .image-container img {
-  width: 50vw;
+  max-width: 100%; /* Responsive within container */
+  width: 300px; /* Or another fixed size that works well */
   height: auto;
   margin: 10px;
 }
