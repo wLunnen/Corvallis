@@ -87,6 +87,7 @@ body {
 }
 
 img {
+  position: absolute;
   transform: scale(.5);
   margin: auto;
 }
