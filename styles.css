@@ -97,8 +97,9 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  /* 
   min-height: 100vh;
-  max-width: 1200px; /* Optional: keeps layout narrow and centered */
+  max-width: 1200px; Optional: keeps layout narrow and centered */
 }
 
 .image-container img {
