@@ -94,8 +94,8 @@ body {
   padding: 1rem;
   margin: 1rem auto; /* Center horizontally */
   display: flex;
-  /* justify-content: center; 
-  align-items: center; */
+  /* justify-content: center; */
+  align-items: center; 
   flex-wrap: wrap;
   /* 
   min-height: 100vh;
