@@ -21,6 +21,7 @@ nav {
   background-color: #411900;
   overflow: hidden;
   text-align: center;
+  font-sizing: .75rem;
 }
 
 nav a {
