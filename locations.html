@@ -30,28 +30,28 @@
   </footer>
 
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script>
-        var map = L.map('map').setView([44.5674398, -123.2727157], 14);
+  <script>
+      var map = L.map('map').setView([44.5674398, -123.2727157], 14);
 
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; OpenStreetMap contributors'
-        }).addTo(map);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; OpenStreetMap contributors'
+      }).addTo(map);
 
-        var locations = [
-              { lat: 44.573209, lng: -123.279989, description: "Curb", imageUrl: "" }
-            ];
+      var locations = [
+            { lat: 44.573265, lng: -123.281172, description: "Benton county health services", imageUrl: "" }
+          ];
 
 
-        locations.forEach(function(location) {
-            var marker = L.marker([location.lat, location.lng]).addTo(map);
+      locations.forEach(function(location) {
+          var marker = L.marker([location.lat, location.lng]).addTo(map);
 
-            var popupContent = `
-                <h3>${location.description}</h3>
-                ${location.imageUrl ? `<img src="${location.imageUrl}" width="100%" />` : ""}
-            `;
+          var popupContent = `
+              <h3>${location.description}</h3>
+              ${location.imageUrl ? `<img src="${location.imageUrl}" width="100%" />` : ""}
+          `;
 
-            marker.bindPopup(popupContent);
-        });
+          marker.bindPopup(popupContent);
+      });
   </script>
   
 </body>
