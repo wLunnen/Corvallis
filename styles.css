@@ -37,6 +37,12 @@ nav a:hover {
   color: black;
 }
 
+#map {
+    height: calc(100vh - 30px);
+    width: 100%;
+    display: block;
+}
+
 section {
   padding: 1em;
   margin-bottom: 2em;
